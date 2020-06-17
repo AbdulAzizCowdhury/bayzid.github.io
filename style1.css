@@ -1,0 +1,166 @@
+*{margin: 0; padding: 0}
+body {
+    background-color: #EEE8AE;
+}
+blockquote{
+    background: #ddd;
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    border-left: 2px solid orange;
+}
+#wrapper{
+    width: 960px;
+    margin: 20px auto;
+}
+#header{
+    background-color: #FAB72B;
+    padding: 15px;
+    border-bottom: 5px solid #6B710E;
+}
+#header h1{
+    color: #FFFFF1;
+}
+#header p{
+    color: #788420;
+}
+#slider_wrapper{
+    
+}
+#nav {
+    background-color: #fff;
+    height: 38px;
+   border-bottom: 5px solid #6B710E;
+}
+#nav ul{
+    z-index: 999;
+}
+#nav ul li:last-child{
+    border-right: none;
+    
+    
+}
+#nav ul li{
+    float: left;
+    height: 38px;
+    border-right: 3px solid #6B710E;
+    
+    
+}
+#nav ul li a{
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    padding: 10px 40px;
+    
+    
+}
+#content_wrapper{
+    background-color: #fff;
+/*    border-top: 6px solid #6B710E;*/
+    padding: 10px;
+    overflow: hidden;
+}
+#content{
+  width: 620px;
+    margin-right: 20px;
+    float: left;
+}
+#content p{
+    margin: 15px 0;
+}
+#content h2{
+    color: #6B710E;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#sidebar{
+    width: 300px;
+      float: left;
+}
+#sidebar h2{
+    color: #6B710E;
+}
+#sidebar ul{
+    color: #6B710E;
+    list-style-type: circle;
+   
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color:  #6B710E;
+    padding: 3px;
+    display: block;
+    
+}
+#footer{
+    background-color:#635548;
+    
+}
+#footer p{
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    
+}
+#nav ul li {
+    position: relative;
+}
+#nav ul li ul{
+    position: absolute;
+    left: -99999px;
+    background: #fff;
+    
+}
+#nav ul li ul li:first-child{
+    border-top: 1px solid #6B710E;
+}
+#nav ul li ul li a{
+    float: left;
+    text-decoration: none;
+    
+}
+#nav ul li:hover ul{
+    left: 0;
+}
+#content img{
+    width: 450px;
+   
+}
+blockquote{
+    background: #ddd;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: 2px solid orange;
+}
+#content figure{
+    width:450px;
+    padding: 10px;
+    background:#ddd; 
+    margin: 0 auto;
+    display: block;
+}
+#content figcaption{
+    text-align: center;
+    color: green;
+    font-weight: 200;
+    font-family: monospace;
+}
+#imgp_wrap img{
+    width: 75px;
+    height: 75px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-right:10px;
+    float:left;
+    
+}
+#imgp_wrap p{
+    float:left;
+    width:500px;
+    margin-top:0;
+}
+#imgp_wrap {
+	margin-top: 10px;
+}
